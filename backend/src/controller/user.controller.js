@@ -11,8 +11,8 @@ export const greetName = (req, res) => {  // user controller for doing the opera
         return res.status(400).json({ error: "Name is required" });
     }
 
-    if (/[^a-zA-Z]/.test(name)) {
-        return res.status(400).json({ error: "Name must contain only letters" });
+    if (/[^a-zA-Z\s]/.test(name)) {
+        return res.status(400).json({ error: "Name must contain only letters and spaces" });
     }
 
     res.status(200).json({ message: `Hello, ${name}! Welcome to Younglabs` })

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+    cursor: default;
+}
+
+input {
+    cursor: text;
+}
+
+button {
+    cursor: pointer;
+}

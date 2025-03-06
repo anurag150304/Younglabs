@@ -1,4 +1,4 @@
-# Younglabs Greeting Web App
+# Younglabs Greetings Web App
 
 ## Backend
 
